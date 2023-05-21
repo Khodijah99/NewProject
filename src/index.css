@@ -1,0 +1,316 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App-Logo {
+  width: 50px;
+  border-radius: 50%;
+}
+.Header .Footer {
+  position: sticky;
+}
+
+.Header {
+  background-color: blue;
+  display: flex;
+  padding: 5px;
+  top: 0;
+}
+h1 {
+  color: yellow;
+  padding: 4px;
+  margin-left: 24%;
+  font-size: 45px;
+}
+marquee {
+  border: ridge rgb(14, 14, 160);
+  color: rgb(13, 13, 117);
+  font-size: 15px;
+  font-style: italic;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.Nav p {
+  display: inline;
+  margin: 4px;
+}
+
+.TopMenu {
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+.TopMenuItem {
+  color: blue;
+  margin: 2px 10px;
+  border: groove 1px blue;
+  padding: 0px 10px;
+}
+
+.TopMenuItem:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.Menu {
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+.MenuItem {
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 2px;
+  color: red;
+  font-size: 15px;
+  border-right: solid 2px red;
+  box-shadow: 4px 4px 4px 2px;
+}
+.MenuItem:hover {
+  font-weight: bolder;
+  font-style: oblique;
+  color: blue;
+  border-bottom: solid 2px red;
+}
+.Banner {
+  width: 100%;
+  height: 400px;
+}
+.intro li {
+  list-style: none;
+  border: 1px groove gray;
+  color: blue;
+  padding: 6px;
+
+  font-style: oblique;
+}
+.intro h3 {
+  text-align: center;
+  color: red;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.intro p {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+.intro {
+  border: solid 10px blue;
+  border-radius: 4px;
+  width: 98%;
+  height: 300px;
+  border-style: groove;
+}
+
+.about,
+.login,
+.contact {
+  background-color: blue;
+  border: solid 10px blue;
+  border-radius: 10px;
+  border-style: groove;
+  padding-top: 10px;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  padding: 15px;
+  align-content: center;
+}
+h2 {
+  font-family: castellar;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.about ul {
+  background-color: red;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.about li {
+  list-style: none;
+  border: 1px groove gold;
+  background-color: white;
+  color: blue;
+  font-style: oblique;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.about p {
+  color: rgb(233, 233, 241);
+  font-weight: bold;
+  text-indent: 40px;
+}
+
+input {
+  text-align: center;
+}
+.login {
+  width: 50%;
+  height: 65%;
+}
+
+.login p {
+  color: rgb(250, 249, 247);
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.new {
+  background-color: darkblue;
+  padding: 20px;
+}
+
+.click input,
+.new input,
+.Send input {
+  background-color: white;
+  color: blue;
+  padding: 4px;
+  margin-top: 5px;
+  font-weight: bold;
+  width: 60px;
+}
+.contact dl {
+  border: 1px groove gold;
+  background-color: darkblue;
+  color: white;
+  font-style: oblique;
+  text-align: left;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.contact p {
+  color: white;
+  font-style: oblique;
+  text-align: left;
+  padding: 5px;
+  font-weight: bold;
+}
+.contact dd {
+  color: rgba(182, 199, 26, 0.932);
+  font-weight: bold;
+  text-indent: 40px;
+}
+.Send {
+  margin-left: 45%;
+}
+textarea {
+  color: blue;
+  font-weight: bold;
+  overflow: scroll;
+}
+.Footer {
+  padding: 10px;
+  color: blue;
+  background-color: rgb(218, 229, 248);
+  text-align: center;
+  bottom: 0;
+}
+
+/*CSS for SignPage */
+
+/* Full-width input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 95%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  background-color: #e9d770;
+  outline: none;
+}
+input[type="checkbox"] {
+  margin-bottom: 15px;
+}
+label {
+  color: white;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: white;
+  color: blue;
+  padding: 14px 20px;
+  font-weight: bold;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #ff4336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  background-color: blue;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
+.terms {
+  color: white;
+}
